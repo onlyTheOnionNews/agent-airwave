@@ -4,7 +4,7 @@ Module Name: lte_pss_gen
 Target Standard: 3GPP TS 36.211 (Release 10)
 
 Objective:
-Design a hardware module to generate the Primary Synchronization Signal (PSS) for the downlink of a 4G LTE baseband modem. 
+Design a hardware module to generate the Primary Synchronization Signal (PSS) for the downlink of a 4G LTE baseband modem.
 
 Required Information from Librarian:
 1. Identify the exact Zadoff-Chu sequence formula used for the PSS.

@@ -1,8 +1,8 @@
-# OpenClaw Event Loop: Agent-Airwave Swarm
+# OpenClaw Event Loop: Silicon Swarm 4G
 
 ## Global Configuration
 - **Poll Interval:** 5 seconds
-- **Watch Directory:** `~/.openclaw/workspaces/agent-airwave-swarm/`
+- **Watch Directory:** `.` (Current workspace directory)
 - **Max Concurrent Agents:** 1 (Strict sequential pipeline)
 
 ## Event Triggers & Routing
