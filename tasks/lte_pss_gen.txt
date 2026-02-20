@@ -1,0 +1,15 @@
+TASK INITIATION: LTE Primary Synchronization Signal (PSS) Generator
+
+Module Name: lte_pss_gen
+Target Standard: 3GPP TS 36.211 (Release 10)
+
+Objective:
+Design a hardware module to generate the Primary Synchronization Signal (PSS) for the downlink of a 4G LTE baseband modem. 
+
+Required Information from Librarian:
+1. Identify the exact Zadoff-Chu sequence formula used for the PSS.
+2. Provide the three specific root indices ($u$) corresponding to the physical layer identity $N_{ID}^{(2)} \in \{0, 1, 2\}$.
+3. Define the sequence length ($N_{ZC}$) and the exact subcarrier mapping (how the 62 sequence elements are mapped to the center 72 subcarriers around the DC subcarrier).
+4. Provide any implementation notes regarding whether these sequences should be computed on the fly via DSP or stored in a ROM lookup table for an ASIC target.
+
+Please generate the 'Design Specification Block' and save it to the specs/ directory.
