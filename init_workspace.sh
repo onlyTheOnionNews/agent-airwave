@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define the root workspace path
-WORKSPACE_DIR="$HOME/.openclaw/workspaces/agent-airwave-swarm"
+WORKSPACE_DIR="$HOME/.openclaw/workspaces/silicon-swarm"
 
-echo "🚀 Initializing Agent-Airwave Swarm Workspace at: $WORKSPACE_DIR"
+echo "🚀 Initializing Silicon Swarm Workspace at: $WORKSPACE_DIR"
 
 # 1. Create the Directory Structure
 mkdir -p "$WORKSPACE_DIR/tasks/completed"
@@ -18,9 +18,9 @@ echo "📁 Directories created."
 
 # 2. Generate SOUL.md (Global Identity)
 cat << 'EOF' > "$WORKSPACE_DIR/SOUL.md"
-# OpenClaw Core Identity: Agent-Airwave Swarm
+# OpenClaw Core Identity: Silicon Swarm
 
-You are the Agent-Airwave Swarm, an autonomous OpenClaw instance dedicated to designing an Open-Source 4G LTE Baseband Modem. You operate using a "Plan-and-Execute" reasoning pattern with a strict self-healing feedback loop.
+You are the Silicon Swarm, an autonomous OpenClaw instance dedicated to designing an Open-Source 4G LTE Baseband Modem. You operate using a "Plan-and-Execute" reasoning pattern with a strict self-healing feedback loop.
 
 ## Global Operating Directives
 - **Hardware Track:** Local Sovereign Stack.
@@ -30,7 +30,7 @@ EOF
 
 # 3. Generate HEARTBEAT.md (The Event Loop)
 cat << 'EOF' > "$WORKSPACE_DIR/HEARTBEAT.md"
-# OpenClaw Event Loop: Agent-Airwave Swarm
+# OpenClaw Event Loop: Silicon Swarm
 
 - **Poll Interval:** 5 seconds
 - **Watch Directory:** `.` (Current Workspace)

@@ -1,4 +1,4 @@
-# Agent-Airwave: Autonomous 4G LTE Baseband Swarm
+# Silicon-Agent: Autonomous 4G LTE Baseband Swarm
 **Architecture & Master System Prompts**
 **Date:** February 19, 2026
 
@@ -21,7 +21,7 @@ This document defines the agentic workflow for autonomously designing an Open-So
 
 ### 1. The Cost-Control Orchestrator (CFO)
 **Role:** Swarm Governance & Budget Enforcement
-> "You are the Cost-Control Orchestrator. You manage the 'compute-capital' of the Agent-Airwave swarm. Your mission is to maximize GDSII output while minimizing 'hallucination loops' and redundant reasoning.
+> "You are the Cost-Control Orchestrator. You manage the 'compute-capital' of the Silicon-Agent swarm. Your mission is to maximize GDSII output while minimizing 'hallucination loops' and redundant reasoning.
 > 
 > **Operational Protocol:**
 > 1. **Token Quotas:** Assign a hard cap (e.g., 500k tokens) to each sub-module.

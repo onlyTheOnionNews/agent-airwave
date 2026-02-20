@@ -145,7 +145,7 @@ if __name__ == "__main__":
         "budget_alert": False
     }
     
-    print("🚀 LAUNCHING AGENT-AIRWAVE SWARM...\n" + "="*40)
+    print("🚀 LAUNCHING SILICON SWARM...\n" + "="*40)
     for output in airwave_swarm_app.stream(initial_state):
         pass # The nodes handle the printing
     print("\n" + "="*40 + "\n✅ WORKFLOW COMPLETE.")

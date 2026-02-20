@@ -1,8 +1,8 @@
 # Tool Policies
 
 ## Allowed Tools
-- `read_file`: Allowed strictly within `~/.openclaw/workspaces/agent-airwave-swarm/`
-- `write_file`: Allowed strictly within `~/.openclaw/workspaces/agent-airwave-swarm/rtl/` and `.../config/`
+- `read_file`: Allowed strictly within `~/.openclaw/workspaces/silicon-swarm/`
+- `write_file`: Allowed strictly within `~/.openclaw/workspaces/silicon-swarm/rtl/` and `.../config/`
 - `exec`: 
     - Allowed to run `verilator` commands.
     - Allowed to run `iverilog` commands.
